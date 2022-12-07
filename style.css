@@ -1,0 +1,102 @@
+@font-face {font-family: Oleander; src: url('fonts/Vogue.ttf');}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),#000000),url(bg/1690136.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text{
+    text-align: left;
+    padding-left: 250px;
+    color: #fff;
+    padding-top: 325px;
+    font-family:'Oleander';
+    font-size: xx-large;
+}
+.banner-text p1{
+    font-size: 70px;
+}
+
+.button{
+    margin: -400px auto 0;
+}
+
+.button a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.button a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    border-radius: 100px;
+    transition: 0.5s;
+    text-align: center;
+}
+.button a:hover span {
+    font-size: 35px;
+}
+
+
+.button a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#whitespace{
+    height: 20px;
+    background-color: wheat;
+}
+
+#projects{
+    background: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ptxt{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Oleander;
+    font-size: 50px;
+    color: #fff;
+}
+
+.par{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.column {
+    padding: 5px;
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
